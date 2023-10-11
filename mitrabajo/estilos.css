@@ -1,0 +1,138 @@
+.titulo{
+    text-align: center;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(53,39,224,0.9430147058823529) 77%, rgba(79,147,200,0.9710259103641457) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    color: #ffffff;
+    height: 2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.nashe{
+    background-image: url(./bocafondo.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    width: 100px;
+}
+.partidos{
+    background-color: rgba(231, 230, 238, 0.829);
+    padding: 3em;
+    padding-top: 1em;
+    width: 40%;
+    margin:2em;
+    border-radius: 1em;
+}
+
+.liga{
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 6em;
+}
+.click{
+    transition: all 0.4s ease;
+}
+
+.click:hover{
+    width: 11em;
+}
+
+.a{
+    display: flex; 
+}
+.b{
+    display: flex; 
+}
+
+.fechas{
+    display: flex;
+    justify-content: center;
+
+}
+
+header{
+    position: sticky;
+    top:0;
+}
+
+.blanco{
+    color:#ffffff;
+    background: rgb(53,39,224);
+    background: radial-gradient(circle, rgba(53,39,224,1) 39%, rgba(53,39,224,0.43881302521008403) 51%);
+    text-align: center;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #000000;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    margin-top: -1em;
+
+}
+.menu li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #216269;
+}
+.fotitosahora{
+ padding-left: 5em;
+ margin-right: 2em;
+}
+.insta{
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: row;
+}
+.insta2{
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: row;
+}
+.changuito{
+    color: #ffffff;
+    margin-left: 4em;
+    margin-right: 4em;
+    width: 40%;
+    padding-bottom: 2em;
+}
+.videomessi{
+   
+    color: #ffffff;
+    margin-left: 4em;
+    margin-right: 4em;
+    width: 40%;
+}
+.arriba{
+    background: #ffffff;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.758) 87%, rgba(0,0,0,0.055059523809523836) 100%);
+}
+.escalo{
+    color: #ffffff;
+    margin-left: 4em;
+    margin-right: 4em;
+    width: 40%;
+}
+.escalo2{
+    color: #ffffff;
+    margin-left: 4em;
+    margin-right: 4em;
+    width: 40%;
+}
